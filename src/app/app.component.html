@@ -1,0 +1,11 @@
+
+<div> 
+  <p>
+    Let's some magic happen :)
+  </p>
+  <p>Nodes count: {{ datas.length }}</p>
+  <div  *lazyFor="let city of datas">
+    <p>{{ city.title }}</p>
+    <img src="{{city.thumbnailUrl}}" alt="">
+  </div>
+</div>  
